@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+   </style>
+    <title>BaitapSANG</title>
+    <style>
+       form {
+      width: 300px;
+      margin: 0 auto;
+      padding: 10px;
+      border: 1px solid black;
+      box-sizing: border-box;
+  }
+  table {
+      width: 100%;
+  }
+  input, select, textarea {
+      width: 100%;
+      padding: 5px;
+      margin: 5px 0;
+  }
+  td {
+      padding: 5px;
+  }
+    </style>
+</head>
+<body>
+  
+  <h2>ĐĂNG KÝ</h2>
+  <table>
+      <tr>
+          <td>Họ tên</td>
+          <td><input type="text" name="hoten" placeholder="Nhập họ tên"></td>
+      </tr>
+      <tr>
+          <td>Username</td>
+          <td><input type="text" name="username" placeholder="Nhập tên đăng nhập"></td>
+      </tr>
+      <tr>
+          <td>Mật khẩu</td>
+          <td><input type="password" name="password" placeholder="Mật khẩu"></td>
+      </tr>
+      <tr>
+          <td>Nhập lại Mật khẩu</td>
+          <td><input type="password" name="confirm_password" placeholder="Nhập lại Mật khẩu"></td>
+      </tr>
+      <tr>
+          <td>Giới tính</td>
+          <td>
+              <input type="radio" name="gioitinh" value="nam"> Nam
+              <input type="radio" name="gioitinh" value="nu"> Nữ
+              <input type="radio" name="gioitinh" value="khac"> Khác
+          </td>
+      </tr>
+      <tr>
+          <td>Ngày sinh</td>
+         <td><input type="date" id="dob" name="dob" required></td>
+              </select>
+          </td>
+      </tr>
+      <tr>
+          <td>Địa chỉ</td>
+          <td><textarea name="diachi" rows="4" placeholder="Nhập địa chỉ"></textarea></td>
+      </tr>
+      <tr>
+          <td>Avatar</td>
+          <td><input type="file" name="avatar"></td>
+      </tr>
+      <tr>
+          <td>Sở thích</td>
+          <td>
+              <input type="checkbox" name="sothich" value="xemphim"> Xem phim
+              <input type="checkbox" name="sothich" value="thethao"> Thể thao
+              <input type="checkbox" name="sothich" value="trochoi"> Trò chơi
+                </td>
+            </tr>
+        </table>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Ok">
+    </form>
+</body>
+</html>
